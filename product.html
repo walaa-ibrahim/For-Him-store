@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Required css files-->
+    <!--bootstrap file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--links of Fonts used-->
+    <link href="https://fonts.googleapis.com/css?family=Lemonada:300,400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <!--slick plugin css-->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!--fontawsome file-->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!--main css file-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Navbar-->
+    <div class="main-nav">
+        <nav class="navbar">
+            <div class="container">
+                <!--Slogan-->
+                <a class="navbar-brand text-capitalize" href="index.html">for him</a>
+                <!--right-list-->
+                <div class="list-shop">
+                    <ul class="list-unstyled d-flex">
+                        <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+                        <li class="dropdown">
+                            <a href="" class=" dropdown-toggle"id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="far fa-user"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="login.html">دخول</a>
+                                <a class="dropdown-item" href="register.html">تسجيل</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="ابحث هنا">
+                            <i class="fas fa-search"></i> 
+                        </div>
+                    </form>
+                </div>
+               <!--toggler-->
+               <button class="nav-toggle"><i class="fas fa-bars"></i></button>
+            </div><!--End container-->
+        </nav>
+        <div id="nav-list">
+            <div class="closed"><i class="fas fa-times"></i></div>
+            <div class="text-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">الرئيسيه <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">التصنيفات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">اجدد العروض</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">من نحن</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><!--End navbar-->
+    <!--product-->
+    <section class="product my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 my-2 offset-1">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imgs/4.png" class="d-block w-100" alt="prodct-img">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/4.png" class="d-block w-100 img-fluid" alt="prodct-img">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/4.png" class="d-block w-100" alt="prodct-img">
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2 pl-5">
+                    <h4 class="text-center">جاكت جلد بني جامد </h4>
+                    <p> ج600</p>
+                    <p class="main-text">الالوان المتاحة</p>
+                    <ul class="list-unstyled clors-list d-flex">
+                        <li class="colr1"></li>
+                        <li class="colr2"></li>
+                        <li class="colr3"></li>
+                    </ul>
+                    <form action="">
+                        <div class="form-row">
+                            <div class="col-6 offset-1 my-1">
+                                <button class="btn btn-bg" type="submit">ابحث</button>
+                            </div>
+                            <div class="input-group my-1 col-5">
+                                <select class="custom-select" id="inlineFormCustomSelectPref">
+                                    <option selected>التصنيف</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="main-text my-4">وصف المنتج :</p>
+                    <div class="discription-prod px-3 pt-2 pb-5">
+                        <p class="main-text">لوريم ايبسوم هو نموذج افتراضي يوضع في 
+                            التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه</p>
+                    </div>
+                </div><!--End row-->
+            </div>
+        </div><!--End container-->
+    </section>
+    <section class="more-pro my-5 py-5">
+        <div class="container">
+            <h2 class="text-center">شاهد المزيد</h2>
+            <div class="hr-line mb-5"></div>
+            <div class="new-slick">
+                <div class="pro-slick mx-2"><img src="imgs/follow-order/1.png" alt="" class="img-fluid brd1"></div>
+                <div class="pro-slick mx-2"><img src="imgs/follow-order/2.png" alt="" class="img-fluid brd1"></div>
+                <div class="pro-slick mx-2"><img src="imgs/follow-order/3.png" alt="" class="img-fluid brd1"></div>
+                <div class="pro-slick mx-2"><img src="imgs/follow-order/1.png" alt="" class="img-fluid brd1"></div>
+                <div class="pro-slick mx-2"><img src="imgs/follow-order/2.png" alt="" class="img-fluid brd1"></div>
+                <div class="pro-slick mx-2"><img src="imgs/follow-order/3.png" alt="" class="img-fluid brd1"></div>
+            </div><!--End new-slick-->
+            <div class="arrow text-center my-2">
+                <button type="button" class="prev-arrow px-2 py-1"><i class="fas fa-chevron-right"></i></button>
+                <button type="button" class="next-arrow px-2 py-1"><i class="fas fa-chevron-left"></i></button>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-6 my-2">
+                    <a class="brand text-capitalize" href="#">for him</a>
+                    <p class="my-4 pb-md-5">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء
+                         كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت ...
+                    </p>
+                    <ul class="list-unstyled my-md-5">
+                        <li class="d-inline-block facebook pl-3"><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li class="d-inline-block insta pl-3"><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li class="d-inline-block twitter pl-3"><a href=""><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 my-2">
+                    <ul class="list-unstyled main-link">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li class="my-2"><a href="">كاجول</a></li>
+                        <li class="my-2"><a href="">بناطيل</a></li>
+                        <li class="my-2"><a href="">فورمال</a></li>
+                        <li class="my-2"><a href="">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 my-2">
+                    <h3 class="mb-4">معلومات</h3>
+                    <ul class="list-unstyled my-md-4">
+                        <li class="pl-3 my-1"><a href="">المساعدة</a></li>
+                        <li class="pl-3 my-1"><a href="">سياسة الخصوصية</a></li>
+                        <li class="pl-3 my-1"><a href="">خريطة الموقع</a></li>
+                    </ul>
+                </div>
+            </div><!--End row-->
+            <p class="copy-right py-3 text-center">copyright &copy; 2020 all rights reserved</p>
+        </div>
+    </footer>
+    <!--Required js files-->
+    <!--jquery & bootstrap file-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--slick plugin js-->
+    <script src="js/slick.min.js"></script>
+    <!--main js file-->
+    <script src="js/main.js"></script>
+</body>
+</html>
